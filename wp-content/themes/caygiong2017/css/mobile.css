@@ -1,0 +1,224 @@
+﻿@media(max-width:1024px){
+	.container{
+		width:100%;
+	}
+	.logo_slogan p{padding-top:15px;}
+	.slogan p{padding:0;}
+	#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item > a.mega-menu-link{padding:0 20px !important;}
+	.menuft ul.menu-ft li{padding:0px 16px;}
+	
+}
+
+
+@media(max-width:768px){
+	#icomenu {
+    display: block;
+    margin-top: 00px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.pc{display:none;}
+.sp{display:block;}
+	#mainmenu {
+    display: none;
+    text-align: right;
+    color: #fff;
+    margin-top: 0;
+}
+.content-right{width:100% !important;}
+.slider ul.callbacks_tabs{display:none;}
+.content-left-pc{display:none;}
+.content-left-sp{display:block;
+	width:100%;}
+	.main-c,.category,.diachi,.single{width:100%;padding:0;}
+	.faceboook,.dang-ky{width:50%;text-align:center;}
+	.search input.search-from{width:97%;}
+	.search button.search-submit{width:4%;}
+	.item-spdv {width:33.33%;float:left;}
+	#mainmenuwap ul.menu-m li{float:inherit;
+		height: 25px;
+    margin-top: 0px;}
+	#mainmenuwap ul.menu-m li a{float:left;}
+	.logo{width:19%;}
+	.slogan{width:81%;}
+	.header-right{display:none;}
+	#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-item{width:100% !important;
+		float:inherit !important;
+		background: none !important;}
+		.navbar-nav{margin:0;}
+	.menuft ul.menu-ft li {
+    padding: 0px 68px;}
+	.anh-spdv img{height:140px;}
+	.footer-c{margin-top:85px;}
+	.slogan h1{font-size:23.66px}
+	.slogan p.tuvan{font-size:22.33px;}
+	.slogan p{font-size:15.66px}
+.show-productsp .image a img{height:auto;}
+}
+@media(max-width:766px){
+	.navbar-toggle{float:left;
+	margin-left:10px;}
+	.navbar-header .navbar-toggle span {
+		width: 28px;
+		height: 2px;
+		background: #fff;}
+}
+@media(max-width:640px){
+.dich-vu h2,.thanh-toan h2,.nghien-cuu h2{background:rgba(189,30,44,1);
+	line-height: 15px;}
+.thanh-toan h2{padding:18px 0;}
+.nghien-cuu h2{padding:20px 0px;}
+.navbar-toggle{float:left;
+	margin-left:10px;}
+.navbar-header .navbar-toggle span {
+    width: 28px;
+    height: 2px;
+    background: #fff;}
+	.navbar-nav{margin: 0px;}
+.pay .col-sm-3{width:33.333%;
+	float:left;}
+}
+
+@media(max-width:736px){
+	.navbar-toggle{float:left;
+	margin-left:10px;}
+	.navbar-header .navbar-toggle span {
+		width: 28px;
+		height: 2px;
+		background: #fff;}
+	.footer-c {
+    margin-top: 143px;}
+	.logo a img{width:100%;
+		height:auto;}
+}
+
+@media(max-width:480px){
+	.logo a img{/* width:auto; */}
+	.item-spdv{width:50% !important;float:left !important;}
+	#icomenu{display:none;}
+	#mainmenu {display:block;}
+	#mega-menu-wrap-mainmenu .mega-menu-toggle{background:none !important;}
+	#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-flyout ul.mega-sub-menu{background:none !important;}
+	#mega-menu-wrap-mainmenu #mega-menu-mainmenu > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link{border-bottom:none !important;
+		padding-left:20px;}
+	.faceboook{width:100%;text-align: center;}
+	.search-sp{display:block;
+		width:100%;
+		float:left;
+		margin-bottom:10px;}
+	.search-sp input.search-from{width:89%;}
+	.logo {
+    /* width: 100%; */
+	text-align:center;}
+	.slogan {
+   /*  width: 100%; */}
+  .slogan h1{font-size:21px;}
+  .slogan p{font-size:14px;}
+.slogan p.tuvan{font-size:13px;}
+	.content-left-pc,.category{width:100%;}
+	.content-left-pc{display:none;}
+	.content-left-sp{display:block;width:100%;}
+	.navbar-nav {
+    margin: 0px;}
+	.slider ul.callbacks_tabs{display:none;}
+	.footer-c {
+    margin-top: 180px;}
+	.search input.search-from{width:89%;}
+	.diachi,.dang-ky,.single,.hinhanh-tt,.noidung-tt,.main-c{width:100%;}
+	.banquyen p{line-height:20px;}
+	.menuft ul.menu-ft li {padding: 0px 46px;}
+	.search button.search-submit {width: 10%;}
+	.anh-spdv img{height:108px;}
+	.content-single,.single,.noidung-cat,.noidung-tt{padding:0px;}
+	.other > .item-spdv > .anh-spdv img{height:auto;}
+	.owl2-prev,.owl2-next{top:25%;}
+	.phonering-alo-ph-img-circle{width:36px;
+		height:36px;}
+	.phonering-alo-ph-circle-fill{width:60px;
+		height:60px;}
+	.phonering-alo-ph-circle{width:100px;
+		height:100px;}
+		.phonering-alo-ph-circle-fill{top: 58px;
+    left: 58px;}
+	.phonering-alo-ph-circle{top: 38px;
+    left: 38px;}
+.single-left,.single-right{width:100%;}
+.phonering-alo-phone{width:140px;
+	height:140px;}
+.phonering-alo-ph-img-circle{background:rgba(30,30,30,0.1) url(../images/phone-ring.png) no-repeat center center;}
+}
+@media(max-width:414px){
+	.slider ul.callbacks_tabs {
+		bottom: 31px;
+		position:relative;
+		right:-84%;}
+	
+	.show-productsp .image a img{height:113px;}
+}
+@media(max-width:360px){
+	.noidung-page .item-spdv,.noidung-page .item-tt .hinhanh-tt,.noidung-page .item-tt .noidung-tt{
+		float:none;
+		width:100%;
+	}
+	.noidung-page .item-spdv .anh-spdv a{
+		min-height:200px;
+	}
+	.footer ul.menu-footer{
+		display:none;
+	}
+	.bottom-footer .logo-footer,.bottom-footer .info-com{
+		float:none!important;
+		width:100%;
+	}
+	.bottom-footer .info-com{
+		margin-top:15px;
+	}
+	.sanpham-dichvu .list-spdv .items .anh-spdv img{
+		height:330px;
+	}
+	.new{
+		margin-top:20px;
+	}
+	.logo_slogan p {
+    font-size: 44px;}
+	.slogan h1{margin-bottom:0px;}
+	.slogan p {
+    font-size: 12px;
+	padding-top:5px;}
+	.dich-vu h2, .thanh-toan h2, .nghien-cuu h2{background:rgba(189,30,44,1);
+		font-size: 15px;}
+	.dich-vu h2{line-height:19px;}
+	.thanh-toan h2,.nghien-cuu h2{padding: 16px 0;
+		line-height: 21px;}
+		.footer-c {
+    margin-top: 217px;}
+	.show-productsp .image a img{height:107px;}
+}
+@media(max-width:320px){
+	.doi-tac .tieude-dt{
+		width:100%;
+		float:none!important;
+	}
+	.doi-tac .logo-dt{
+		padding-top:0;
+		float:none!important;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	#owl-dt .owl-nav .owl2-prev{
+		left:0;
+	}
+	.doi-tac .tieude-dt p{
+		padding:10px 0;
+	}
+	.owl-carousel .owl-item img{
+		width:auto;
+	}
+	
+	.noidung-page .item-tt .noidung-tt{
+		margin-top:10px;
+	}
+	.sanpham-dichvu .list-spdv .items .anh-spdv img{
+		height:290px;
+	}
+}

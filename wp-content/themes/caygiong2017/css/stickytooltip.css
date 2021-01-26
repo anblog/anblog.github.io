@@ -1,0 +1,29 @@
+.stickytooltip{
+box-shadow: 5px 5px 8px #ccc; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 5px 5px 8px #818181;
+-moz-box-shadow: 5px 5px 8px #818181;
+display:none;
+position:absolute;
+display:none;
+background:white;
+z-index:3000;
+}
+
+
+.stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+background:black;
+color:white;
+padding-top:5px;
+text-align:center;
+font:bold 11px Arial;
+}.text {
+	font-weight: bold;
+	color: #990000;
+}
+.field {
+	font-style: italic;
+	color: #990000;
+	background-color: #FFFFCC;
+	text-align: center;
+}
+#mystickytooltip img{height: auto;width: auto;max-height: 200px;max-width:300px}
