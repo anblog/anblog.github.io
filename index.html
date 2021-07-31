@@ -5578,8 +5578,12 @@ img.emoji {
 <style>
 .mobile_chat {
   	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
+	position: fixed;
 	animation: gradient 15s ease infinite;
+	bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 @keyframes gradient {
 	0% {
