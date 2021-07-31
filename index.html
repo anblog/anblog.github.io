@@ -5577,14 +5577,20 @@ img.emoji {
 <!--css lien he-->
 <style>
 .mobile_chat {
-    background: #fff;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    box-shadow: #ebebeb 0 0 20px;
+  	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 .chat-item {
     padding: 5px 10px;
 }
@@ -5638,6 +5644,7 @@ img.emoji {
 <script type="text/javascript" src="wp-content/themes/caygiong2017/js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="wp-content/themes/caygiong2017/js/responsiveslides.min.js"></script>
 <script type="text/javascript" src="wp-content/themes/caygiong2017/js/wow.min.js"></script>
+<script type="text/javascript" src="wp-content/themes/caygiong2017/js/all.min.js"></script>
 <script type="text/javascript" src="wp-content/themes/caygiong2017/js/scrollspy.js"></script>
 
 <script type="text/javascript" src="wp-content/themes/caygiong2017/js/stickytooltip.js"></script>
