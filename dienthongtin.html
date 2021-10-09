@@ -1,0 +1,53 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<div class="container">  
+<form id="contact" method="GET" action="https://script.google.com/macros/s/AKfycbwMqR13eCwoHf7Inl7ZGuXNrFJQW8eHsgTIbeqAxuGNRK9l5-k/exec">
+    <h3>Liên hệ đặt cây giống</h3>
+    <h4>Đặt ngay để được hưởng ưu đãi miễn phí ship toàn quốc</h4>
+    <fieldset>
+      <input type="text" name="Ten" placeholder="Tên" tabindex="1" required>
+    </fieldset>
+    <fieldset>
+      <input type="tel" name="So_dien_thoai" placeholder="Số điện thoại" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input type="text" name="Dia_chi" placeholder="Địa chỉ" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <textarea name="Noi_dung" placeholder="Nhập nội dung đơn hàng (ví dụ: 5 cây ổi rubi, 3 cây táo thái)" tabindex="4" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button class="confetti-button" type="submit" id="submit-form" data-submit="...Sending">Đặt hàng ngay</button>
+    </fieldset>
+    <p class="note">* Nhân viên tư vấn sẽ gọi lại ngay,xin quý khách chú ý điện thoại!</a></p>
+  </form>
+<script src="/json.js"></script>
+  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript">
+ $(document).ready(function()
+ { 
+   var submit = $("button[type='submit']");
+   submit.click(function()
+               {
+                  var data = $('form#contact').serialize();
+                  $.ajax({
+                            type : 'GET', 
+                            url : 'https://script.google.com/macros/s/AKfycbwMqR13eCwoHf7Inl7ZGuXNrFJQW8eHsgTIbeqAxuGNRK9l5-k/exec',
+                            dataType:'json',
+                            crossDomain : true,
+                            data : data,
+                            success : function(data)
+                          { 
+                  if(data == 'false') 
+                          {
+                             alert('Thêm không thành công, vui lòng thử lại');
+                          }else{
+                             window.location.replace("https://anblog.github.io/camon.html");
+                          }
+               }
+    });
+    return false;
+   });
+ });
+</script>
+</div>
